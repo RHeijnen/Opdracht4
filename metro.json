@@ -1,0 +1,719 @@
+[
+  {
+    "id": 1,
+	"name": "Den Haag Centraal",
+    "connections": [
+      "Laan van NOI"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 2,
+	"name": "Laan van NOI",
+    "connections": [
+      "Den Haag Centraal",
+	  "Voorburg 't Loo"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 3,
+	"name": "Voorburg 't Loo",
+    "connections": [
+      "Laan van NOI",
+	  "Leidschendam-Voorburg"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 4,
+	"name": "Leidschendam-Voorburg",
+    "connections": [
+      "Voorburg 't Loo",
+	  "Forepark"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 4,
+	"name": "Forepark",
+    "connections": [
+      "Leidschendam-Voorburg",
+	  "Leidschenveen"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 5,
+	"name": "Leidschenveen",
+    "connections": [
+      "Forepark",
+	  "Nootdorp"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 6,
+	"name": "Nootdorp",
+    "connections": [
+      "Leidschenveen",
+	  "Pijnacker Centrum"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 7,
+	"name": "Pijnacker Centrum",
+    "connections": [
+      "Nootdorp",
+	  "Pijnacker Zuid"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 8,
+	"name": "Pijnacker Zuid",
+    "connections": [
+      "Pijnacker Centrum",
+	  "Berkel Westpolder"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 9,
+	"name": "Berkel Westpolder",
+    "connections": [
+      "Pijnacker Zuid",
+	  "Rodenrijs"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 10,
+	"name": "Rodenrijs",
+    "connections": [
+      "Berkel Westpolder",
+	  "Meijersplein"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 11,
+	"name": "Meijersplein",
+    "connections": [
+      "Rodenrijs",
+	  "Melanchtonweg"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 12,
+	"name": "Melanchtonweg",
+    "connections": [
+      "Meijersplein",
+	  "Blijdorp"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 13,
+	"name": "Blijdorp",
+    "connections": [
+      "Melanchtonweg",
+	  "Rotterdam Centraal"
+    ],
+    "lines": [
+      "E"
+    ]
+  },
+  {
+    "id": 14,
+	"name": "Rotterdam Centraal",
+    "connections": [
+      "Blijdorp",
+	  "Stadhuis"
+    ],
+    "lines": [
+      "E",
+	  "D"
+    ]
+  },
+  {
+    "id": 15,
+	"name": "Stadhuis",
+    "connections": [
+      "Rotterdam Centraal",
+	  "Beurs"
+    ],
+    "lines": [
+      "E",
+	  "D"
+    ]
+  },
+  {
+    "id": 16,
+	"name": "Beurs",
+    "connections": [
+      "Stadhuis",
+	  "Leuvehaven",
+	  "Blaak",
+	  "Eendrachtsplein"
+	  
+    ],
+    "lines": [
+      "E",
+	  "D",
+	  "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 17,
+	"name": "Leuvehaven",
+    "connections": [
+      "Beurs",
+	  "Wilhelminaplein"	  
+    ],
+    "lines": [
+      "E",
+	  "D"
+    ]
+  },
+  {
+    "id": 18,
+	"name": "Wilhelminaplein",
+    "connections": [
+      "Leuvehaven",
+	  "Rijnhaven"	  
+    ],
+    "lines": [
+      "E",
+	  "D"
+    ]
+  },
+  {
+    "id": 19,
+	"name": "Rijnhaven",
+    "connections": [
+      "Wilhelminaplein",
+	  "Maashaven"	  
+    ],
+    "lines": [
+      "E",
+	  "D"
+    ]
+  },
+  {
+    "id": 20,
+	"name": "Maashaven",
+    "connections": [
+      "Zuidplein",
+	  "Rijnhaven"	  
+    ],
+    "lines": [
+      "E",
+	  "D"
+    ]
+  },
+  {
+    "id": 21,
+	"name": "Zuidplein",
+    "connections": [
+      "Maashaven",
+	  "Slinge"	  
+    ],
+    "lines": [
+      "E",
+	  "D"
+    ]
+  },
+  {
+    "id": 22,
+	"name": "Slinge",
+    "connections": [
+      "Zuidplein",
+	  "Rhoon"	  
+    ],
+    "lines": [
+      "E",
+	  "D"
+    ]
+  },
+  {
+    "id": 23,
+	"name": "Rhoon",
+    "connections": [
+      "Slinge",
+	  "Poortugaal"	  
+    ],
+    "lines": [
+      "D"
+    ]
+  },
+  {
+    "id": 24,
+	"name": "Tussenwater",
+    "connections": [
+      "Poortugaal",
+	  "Hoogvliet"	  
+    ],
+    "lines": [
+      "D",
+	  "C"
+    ]
+  },
+  {
+    "id": 25,
+	"name": "Hoogvliet",
+    "connections": [
+      "Tussenwater",
+	  "Zalmplaat"	  
+    ],
+    "lines": [
+      "D",
+	  "C"
+    ]
+  },
+  {
+    "id": 26,
+	"name": "Zalmplaat",
+    "connections": [
+      "Hoogvliet",
+	  "Spijkenisse Centrum"	  
+    ],
+    "lines": [
+      "D",
+	  "C"
+    ]
+  },
+  {
+    "id": 27,
+	"name": "Spijkenisse Centrum",
+    "connections": [
+      "Zalmplaat",
+	  "Heemraadlaan"	  
+    ],
+    "lines": [
+      "D",
+	  "C"
+    ]
+  },
+  {
+    "id": 28,
+	"name": "Heemraadlaan",
+    "connections": [
+      "Spijkenisse Centrum",
+	  "De Akkers"	  
+    ],
+    "lines": [
+      "D",
+	  "C"
+    ]
+  },
+  {
+    "id": 29,
+	"name": "De Akkers",
+    "connections": [
+      "Spijkenisse Centrum"
+    ],
+    "lines": [
+      "D",
+	  "C"
+    ]
+  },
+  {
+    "id": 30,
+	"name": "Pernis",
+    "connections": [
+      "Tussenwater",
+	  "Vijfsluizen"
+    ],
+    "lines": [
+      "C"
+    ]
+  },
+  {
+    "id": 31,
+	"name": "Vijfsluizen",
+    "connections": [
+      "Pernis",
+	  "Troelstralaan"
+    ],
+    "lines": [
+      "C"
+    ]
+  },
+  {
+    "id": 32,
+	"name": "Troelstralaan",
+    "connections": [
+      "Vijfsluizen",
+	  "Parkweg"
+    ],
+    "lines": [
+      "C"
+    ]
+  },
+  {
+    "id": 33,
+	"name": "Parkweg",
+    "connections": [
+      "Troelstralaan",
+	  "Schiedam Centrum"
+    ],
+    "lines": [
+      "C"
+    ]
+  },
+  {
+    "id": 34,
+	"name": "Schiedam Centrum",
+    "connections": [
+      "Parkweg",
+	  "Marconiplein"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 35,
+	"name": "Marconiplein",
+    "connections": [
+      "Schiedam Centrum",
+	  "Delfshaven"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 36,
+	"name": "Delfshaven",
+    "connections": [
+      "Marconiplein",
+	  "Coolhaven"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 37,
+	"name": "Coolhaven",
+    "connections": [
+      "Delfshaven",
+	  "Dijkzigt"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 38,
+	"name": "Dijkzigt",
+    "connections": [
+      "Coolhaven",
+	  "Eendrachtsplein"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 39,
+	"name": "Eendrachtsplein",
+    "connections": [
+      "Dijkzigt",
+	  "Beurs"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 40,
+	"name": "Blaak",
+    "connections": [
+      "Beurs",
+	  "Oostplein"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 41,
+	"name": "Oostplein",
+    "connections": [
+      "Blaak",
+	  "Gerdesiaweg"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 42,
+	"name": "Gerdesiaweg",
+    "connections": [
+      "Oostplein",
+	  "Voorschoterlaan"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 43,
+	"name": "Voorschoterlaan",
+    "connections": [
+      "Gerdesiaweg",
+	  "Kralingse Zoom"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 44,
+	"name": "Kralingse Zoom",
+    "connections": [
+      "Voorschoterlaan",
+	  "Capelsebrug"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 45,
+	"name": "Capelsebrug",
+    "connections": [
+      "Kralingse Zoom",
+	  "Slotlaan"
+    ],
+    "lines": [
+      "C",
+	  "B",
+	  "A"
+    ]
+  },
+  {
+    "id": 46,
+	"name": "Slotlaan",
+    "connections": [
+      "Capelsebrug",
+	  "Capelle Centrum"
+    ],
+    "lines": [
+      "C"
+    ]
+  },
+  {
+    "id": 47,
+	"name": "Capelle Centrum",
+    "connections": [
+      "Slotlaan",
+	  "De Terp"
+    ],
+    "lines": [
+      "C"
+    ]
+  },
+  {
+    "id": 48,
+	"name": "De Terp",
+    "connections": [
+      "Capelle Centrum"
+    ],
+    "lines": [
+      "C"
+    ]
+  },
+  {
+    "id": 49,
+	"name": "Schenkel",
+    "connections": [
+      "Capelsebrug",
+	  "Prinsenlaan"
+    ],
+    "lines": [
+      "A",
+	  "B"
+    ]
+  },
+  {
+    "id": 50,
+	"name": "Prinsenlaan",
+    "connections": [
+      "Schenkel",
+	  "Oosterflank"
+    ],
+    "lines": [
+      "A",
+	  "B"
+    ]
+  },
+  {
+    "id": 51,
+	"name": "Oosterflank",
+    "connections": [
+      "Prinsenlaan",
+	  "Alexander"
+    ],
+    "lines": [
+      "A",
+	  "B"
+    ]
+  },
+  {
+    "id": 52,
+	"name": "Alexander",
+    "connections": [
+      "Oosterflank",
+	  "Graskruid"
+    ],
+    "lines": [
+      "A",
+	  "B"
+    ]
+  },
+  {
+    "id": 53,
+	"name": "Graskruid",
+    "connections": [
+      "Alexander",
+	  "Romeynshof",
+	  "Hesseplaats"
+    ],
+    "lines": [
+      "A",
+	  "B"
+    ]
+  },
+  {
+    "id": 54,
+	"name": "Romeynshof",
+    "connections": [
+      "Binnenhof",
+	  "Graskruid"
+    ],
+    "lines": [
+      "A"
+    ]
+  },
+  {
+    "id": 55,
+	"name": "Binnenhof",
+    "connections": [
+      "Romeynshof"
+    ],
+    "lines": [
+      "A"
+    ]
+  },
+  {
+    "id": 56,
+	"name": "Hesseplaats",
+    "connections": [
+      "Graskruid",
+	  "Nieuw Verlaat"
+    ],
+    "lines": [
+      "B"
+    ]
+  },
+  {
+    "id": 57,
+	"name": "Nieuw Verlaat",
+    "connections": [
+      "Hesseplaats",
+	  "Ambachtsland"
+    ],
+    "lines": [
+      "B"
+    ]
+  },
+  {
+    "id": 58,
+	"name": "Ambachtsland",
+    "connections": [
+      "Nieuw Verlaat",
+	  "De Tochten"
+    ],
+    "lines": [
+      "B"
+    ]
+  },
+  {
+    "id": 59,
+	"name": "De Tochten",
+    "connections": [
+      "Ambachtsland",
+	  "Nesselande"
+    ],
+    "lines": [
+      "B"
+    ]
+  },
+  {
+    "id": 60,
+	"name": "Nesselande",
+    "connections": [
+      "De Tochten"
+    ],
+    "lines": [
+      "B"
+    ]
+  } 
+]

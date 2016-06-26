@@ -1,0 +1,49 @@
+ID  1 - Paul Crowe - Friends > Rob Fitz(2)
+ID  2 - Rob Fitz   - Friends > Paul Crowe(1),Ben O'Carolan(3)
+ID  3 - Ben O'Carolan - Friends > Rob Fitz(2), Victor(4), (5), (7)
+ID  4 - Victor - Friends > Ben O'Carolan(3)
+ID  5 - Peter Mac - Friends > Ben O'Carolan(3), (6), (7), (10), (11)
+ID  6 - John Barry - Friends > Peter Mac(5)
+ID  7 - Sarah Lane - Friends > (3), (5), (8), (12), (20)
+ID  8 - Susan Downe - Friends > Sarah Lane(7)
+ID  9 - Jack Stam - Friends > (12)
+ID 10 - Amy Lane - Friends > Peter Mac(5), Sandra Phelan(11)
+ID 11 - Sandra Phelan - Friends > (5), (10), (19), (20)
+ID 12 - Laura Murphy - Friends > Sarah Lane(7), Jack Stam(9), (13), (20)
+ID 13 - Lisa Daly - Friends > Laura Murphy (12), (14), (20)
+ID 14 - Mark Johnson - Friends > Lisa Daly(13), Seamus Crowe(15)
+ID 15 - Seamus Crowe - Friends > Mark Johnson(14)
+ID 16 - Daren Slayer - Friends > Marie D(18), Katy Couch(20)
+ID 17 - Dara Zoltan - Friends > Marie D(18), Catriona Long(19)
+ID 18 - Marie D - Friends > Dara Zoltan(17)
+ID 19 - Catriona Long - Friends > Sandra Phelan(11), Katy Couch(20)
+ID 20 - Katy Couch - Friends > Sarah Lane(7), Sandra Phelan(11), Laura Murphy(12), Lisa Daly(13), Daren Slayer(16), Dara Zoltan(17), Catriona Long(19)
+
+
+////////////////////////////////////////////////////////////
+
+Zijn de vrienden van iemands vrienden altijd ook zijn / haar vrienden? Voor wie geldt dat wel? Voor wie niet?
+
+Op basis van deze gegevens zijn 'vrienden van iemands vrienden' niet altijd(amper) ook zijn/haar vrienden. 
+
+ID  1 - Nee
+ID  2 - Nee, ID 3 heeft vrienden die ID 2 niet heeft
+ID  3 - Nee, ID 2 heeft vrienden die ID 3 niet heeft
+ID  4 - Nee, ID 4 heeft maar 1 vriend(ID 3), en die heeft er meerdere
+ID  5 - Nee, ID 3 heeft anderen vrienden dan ID 5
+ID  6 - Nee, ID 6 heeft maar 1 vriend (ID 5) en die heeft er meerdere
+ID  7 - Nee, ID 7 heeft ID 3 als vriend, en die hebben allebei ID 5 als vriend
+ID  8 - Nee, ID 8 heeft maar 1 vriend(ID 7), en die heeft er meerdere
+ID  9 - Nee, ID 9 heeft maar 1 vriend(ID 12), en die heeft er meerdere
+ID 10 - Ja, ID 5 en ID 11 hebben allebei elkaar als vriend, en dat zijn de eenige vrienden van ID 10
+ID 11 - ID 5 en 10 hebben elkaar als vriend, eenig overlap
+ID 12 - Nee
+ID 13 - Nee, ID 20 heeft wel eenig overlap
+ID 14 - Nee
+ID 15 - Nee, ID 15 heeft maar 1 vriend (ID 14), en die heeft er meerdere
+ID 16 - Nee
+ID 17 - Nee, ID 18 heeft maar 1 vriend en dat is ID 17
+ID 18 - Nee, Vreemde data in deze
+ID 19 - Ja, ID 11 en ID 20 hebben elkaar als vriend, en dat zijn de eenige vrienden van ID 19
+ID 20 - Eenig overlap
+
